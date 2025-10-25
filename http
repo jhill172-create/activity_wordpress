@@ -1,0 +1,50 @@
+# activity_wordpress
+
+Repository for the WordPress dashboard exploration assignment.
+
+Files:
+- `page-exploring-dashboard.html` — HTML content you can paste into the WordPress page editor (Text/HTML mode) or into a Custom HTML block.
+
+After cloning this repository into your AMPPS `www` directory, log into your local WordPress (usually http://localhost/your-site/wp-admin), create a new page, paste the HTML from `page-exploring-dashboard.html`, and publish.
+
+Repository URL: <your-GitHub-repo-URL>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Exploring the WordPress Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.5; padding:24px; max-width:900px; margin:auto;}
+    table { border-collapse: collapse; width:100%; margin-top:16px; }
+    th, td { border:1px solid #ddd; padding:8px; text-align:left; }
+    th { background:#f7f7f7; }
+    h1 { font-size:28px; margin-bottom:8px;}
+    .meta { margin-bottom:12px; color:#333; }
+  </style>
+</head>
+<body>
+  <h1>Exploring the WordPress Dashboard</h1>
+
+  <p class="meta">J Hill</p>
+
+  <p class="meta">October 25, 2025</p>
+
+  <table aria-label="WordPress dashboard sections and purposes">
+    <thead>
+      <tr><th>Section</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Posts</td><td>Manage blog posts: create, edit, categorize with categories and tags, and control publish status (draft, scheduled, published). Useful for time-ordered content and blog/news updates.</td></tr>
+      <tr><td>Media</td><td>Library for uploaded files (images, video, audio, documents). Upload, edit, and reuse media files; add alt text and basic metadata for accessibility and SEO.</td></tr>
+      <tr><td>Pages</td><td>Create and manage static pages (e.g., About, Contact). Pages are for timeless content and hierarchical structure (parent/child pages).</td></tr>
+      <tr><td>Comments</td><td>Moderate visitor comments: approve, reply, mark as spam, or delete. Manage discussion settings and monitor engagement on posts/pages.</td></tr>
+      <tr><td>Appearance</td><td>Control site look and layout: themes, widgets, menus, and (depending on theme) site editor / template parts. Customize site identity (logo, colors) and visual presentation.</td></tr>
+      <tr><td>Plugins</td><td>Install, activate, deactivate, and configure plugins that extend site functionality (SEO, caching, forms, security). Manage plugin updates and settings.</td></tr>
+      <tr><td>Users</td><td>Manage site users and roles (Administrator, Editor, Author, Contributor, Subscriber). Add or remove users and set permissions for content access and administration.</td></tr>
+      <tr><td>Tools</td><td>Access import/export tools, site health and other administrative utilities. Helpful for migrating content, checking diagnostics, and performing maintenance tasks.</td></tr>
+      <tr><td>Settings</td><td>Global configuration for the site: general site title/timezone, writing/reading options, discussion, media sizes, permalinks and privacy settings. Central place for baseline behavior.</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
